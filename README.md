@@ -45,7 +45,6 @@ The `plan:` `check:` steps assert the binary path, its owning package, and its
 - Owning skill: `/charly-selkies:libnotify` — the `notify-send` CLI, its package,
   and the `dbus: notify` verb alternative.
 - `/charly-infrastructure:dbus-layer` — the D-Bus session bus (required dependency).
-- `/charly-selkies:swaync` — the notification daemon that displays the notifications.
 - `/charly-image:layer` — candy authoring reference.
 - [`opencharly/charly`](https://github.com/opencharly/charly) — the charly CLI and image builder
 - [`opencharly/opencharly`](https://github.com/opencharly/opencharly) — the umbrella
